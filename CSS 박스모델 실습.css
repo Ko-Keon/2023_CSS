@@ -1,0 +1,45 @@
+.title {
+    background-color: orange;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.book {
+    border: dashed 3px black;
+    border-radius: 20px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p1{
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button {
+    text-decoration-line: none;
+    color: black;
+    background-color: orange;
+    border-radius: 20px 20px;
+    padding:20px;
+}
+
+.button:hover { background-color: red;}
+
+.blog {
+    text-decoration-line: none ;
+    color: black;
+    padding: 5px 0;
+}
+
+.blog:hover {
+    color:green;
+    font-weight: bolder;
+    border-bottom: solid green 3px;
+}
+
+

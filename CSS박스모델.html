@@ -74,7 +74,7 @@
     <p class="my-border my-m-atuo">자동 마진입니다.</p>
     <p>display가 block이거나 inline 태그에 사용하면 margin auto는 실행되지 않는다.</p>
     <div>
-        <a href="" class="my-m-auto">자동 마진입니다.</a>
+        <a href="" class="box-parent my-m-auto">자동 마진입니다.</a>
     </div>
 
     <h2>html 태그의 전체 크기 구하기</h2>
@@ -93,6 +93,13 @@
         border, padding, content 값으로 바뀐다. <br>
         크기값이 중요한 경우에는 border-box로 바꿔서 작성 <br>
         크기 계산이 편하기떄문.
+    </p>
+
+    <h2>마진값-auto</h2>
+    <div class = "my-border my-m-auto" style="width : 300px">margin 속성값 auto</div>
+    <p>
+        margin 속성값 auto 값을 사용해 줄 떄는 display가 block속성, content크기가 부모보다 작아야한다. <br>
+        margin-auto를 사용하면 부모의 크기 기준으로 중앙으로 정렬된다.
     </p>
 </body>
 </html>
