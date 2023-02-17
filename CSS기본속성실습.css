@@ -18,7 +18,7 @@ a {text-decoration-line: none;
 
 .link a:link {color:black}
 .link a:visited {color : black}
-.link a:hover {color : black, text-shadow: 1.5px 1.5px black}
+.link a:hover {color : black, text-shadow  1.5px 1.5px black}
 .link a:active {color : black}
 
 span {
