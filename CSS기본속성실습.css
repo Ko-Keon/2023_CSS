@@ -1,9 +1,35 @@
-.title-link {
-    font-family: "Cookie Run Black";
+.title {
+    font-family: "CookieRun";
     font-size : 30px;
+    font-weight: 800;
+    text-shadow: 1.5px 1.5px black
 }
 
 .table-coll{
-    border: 1px solid black;
+    border: 2px solid black;
     background-color: beige;
+    width: 30%;
+}
+
+a {text-decoration-line: none;
+    text-decoration-color: black;
+    font-weight: bolder;
+}
+
+.link a:link {color:black}
+.link a:visited {color : black}
+.link a:hover {color : black, text-shadow: 1.5px 1.5px black}
+.link a:active {color : black}
+
+span {
+    text-decoration-color: red;
+    text-decoration-style: wavy ;
+    text-decoration-line: underline;
+    color: green;
+    font-weight: bolder;
+    font-family: 궁서체;
+}
+
+.list {
+    list-style:circle;
 }
