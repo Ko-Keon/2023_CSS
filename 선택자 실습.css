@@ -16,9 +16,8 @@ a {
 }
 
 td {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: blue;
     color: white;
-    padding: 5px;
-
+    padding: 10px;
 }
