@@ -52,3 +52,10 @@
     top: 250px;
     left: 170px;
 }
+
+.position-f {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}

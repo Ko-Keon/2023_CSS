@@ -1,0 +1,24 @@
+li {
+    list-style: none;
+}
+a {
+    text-decoration-line: none;
+    color: purple;
+}
+
+.select {
+    border: solid 3px red;
+}
+
+.tag {
+    text-align: right;
+    margin: 15px;
+}
+
+td {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+
+}

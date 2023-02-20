@@ -1,0 +1,40 @@
+.test-position {
+    border: solid 2px black;
+    background-color: antiquewhite;
+    width: 150px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 0 10px;
+}
+
+.test-position ul {
+    list-style: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+a:hover {
+    color:white
+}
+
+.list-test1 {
+    list-style: none;
+    background-color: yellow;
+    padding: 30px;
+    overflow: auto;
+}
+.list-test2 {
+    background-color: green;
+    width: 300px;
+    padding: 20px;
+    float: left;
+    text-align: center;
+    font-size: 1.2rem;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+}
