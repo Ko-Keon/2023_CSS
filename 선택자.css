@@ -65,3 +65,64 @@ p:first-of-type {
 .of-type p:first-of-type {
     color: red;
 }
+
+.first-letter::first-letter {
+    color: orange;
+    font-size: 1.5rem;
+}
+.first-line::first-line {
+    background-color: yellow;
+}
+
+.before-image::before {
+    /*content를 넣어서 내용 추가*/
+    content: "";
+    /*inline-block을 넣어서 크기조절*/
+    background-image: url(./img/dog.jpg);
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.before-color::before {
+    content: "";
+    background-color: yellow;
+    /*content에 글자가 없을 때, inline-block 사용*/
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.after::after {
+    content: "추가";
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.after-color::after {
+    content: "추가된글자";
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+}
+
+.attr>input[type="checkbox"]:checked+span {
+    color: lawngreen;
+}
+.attr>input[type="radio"]:checked+span {
+    text-decoration: underline wavy;
+}
+.attr>input[type="button"] {
+    color: white;
+    background-color: black;
+}
+.attr>input[type="radio"][value="group"] {
+/*여러 속성 사용 가능*/
+}

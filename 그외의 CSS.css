@@ -1,0 +1,97 @@
+input[type="button"] {
+    cursor: pointer;
+    background-image: url(./img/pencil.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+@import url(./선택자.css);
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font {
+    font-family: "PyeongChangPeace-Bold";
+}
+
+.gradient {
+    height: 50px;
+    background: -webkit-linear-gradient(right, green, yellow, white);
+}
+
+.gradient2 {
+    height: 50px;
+    background: -webkit-linear-gradient(0deg, green, yellow, white);
+}
+
+body {
+    background :linear-gradient( #0000009a, #fff )
+}
+
+.gradient-circle {
+    width: 150px;
+    height: 150px;
+    background: -webkit-radial-gradient(closest-side,red, orange, yellow, green, blue, navy, purple);
+
+}
+
+.box-shadow {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    box-shadow: 3px 3px 2px black;
+}
+
+.background {
+    background-image: url(./img/pencil.png),url(./img/dog.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2 {
+    width: 600px;
+    height: 300px;
+    border: black 5px solid;
+    padding: 30px;
+    background-image: url(./img/pen.svg);
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+.background3 {
+    background-image: url(./img/plant.png);
+    font-size: 5rem;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.border-image {
+    border: solid 2px transparent;
+    -webkit-border-image: url(./img/border.png);
+}
+
+.text {
+    background-color: yellowgreen;
+    height: 70px;
+    word-break: keep-all;
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+}
+
+.text-kr {
+    background-color: yellow;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

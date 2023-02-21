@@ -11,7 +11,7 @@ a {
 }
 
 .tag {
-    text-align: right;
+    text-align: center;
     margin: 15px;
 }
 
@@ -20,4 +20,19 @@ td {
     background-color: blue;
     color: white;
     padding: 10px;
+    width: 70px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+p::after{
+    content: "N";
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    width: 20px;
+    border-radius: 20px;
+    text-align: center;
 }
