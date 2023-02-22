@@ -74,8 +74,8 @@ body {
 }
 
 .border-image {
-    border: solid 2px transparent;
-    -webkit-border-image: url(./img/border.png);
+    border: solid 100px black;
+    border-image: url(./img/border.png);
 }
 
 .text {
