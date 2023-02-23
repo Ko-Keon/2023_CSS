@@ -1,0 +1,82 @@
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+.grid-box>p:first-child {
+    background-color: skyblue;
+}
+.grid-box>p {
+    background-color: navajowhite;
+}
+
+.grid-box-row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /*row를 작성할 때는 높이 간격을 따로 주고싶을 때 사용*/
+    grid-template-rows: 1fr 1fr 2fr;
+}
+
+.grid-box-row>p:first-child {
+    padding: 30px 0;
+}
+
+.grid-box-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*
+    template : 갯수만큼 크기 지정(그 외의 크기는 auto)
+    auto : 모든 row의 오토를 어떻게할지 지정
+    */
+    grid-auto-rows: 1fr;
+}
+.grid-box-item>p:first-child {
+    grid-column: 1/4;
+    border: 1px solid salmon;
+}
+.grid-box-item>p:nth-child(2) {
+    grid-row: 2/4;
+}
+.grid-box-item>p:nth-child(3) {
+    grid-row: 2/4;
+    grid-column: 2/4;
+    border: solid 1px salmon;
+}
+.grid-box-item>p:nth-child(4) {
+    grid-column: 2/4;
+    border: solid 1px salmon;
+}
+.grid-box-item>p:nth-child(5) {
+    grid-column: 1;
+    grid-row: 4;
+    border: solid 1px salmon;
+}
+
+
+/*grid 실습 확인*/
+.grid-box-contain {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 10px 10px;
+}
+
+.content:hover>.item-image {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.item-image {
+    background-image: url(./img/dog2.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.grid-box-contain>.content>h4 {
+    margin: 0; padding: 0;
+}
+.grid-box-contain>.content>p {
+    margin: 0; padding: 0;
+
+}
