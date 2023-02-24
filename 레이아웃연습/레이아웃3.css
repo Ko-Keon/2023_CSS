@@ -1,0 +1,49 @@
+body {
+    margin: 0; padding: 0;
+    background-color: rgb(248, 235, 248);
+}
+
+.wrap {
+    width: 1200px;
+    background-color: rgb(101, 101, 202);
+    color: ivory;
+    text-shadow: 2px 2px black;
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.side {
+    width: 350px;
+    height: 1050px;
+    background-color: rgb(243, 133, 179);
+    font-size: 2.5rem;
+    line-height: 150px; /*텍스트 줄 간격 조정*/
+    float: left;
+    box-sizing: border-box;
+    padding-top: 500px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 350px 350px 350px;
+    height: 300px;
+}
+
+.main>.head {
+    background-color: rgb(255, 161, 132);
+    box-sizing: border-box;
+    padding: 150px;
+}
+
+.main>.content {
+    background-color: rgb(248, 99, 99);
+    box-sizing: border-box;
+    padding: 150px;
+}
+
+.main>.footer {
+    background-color: pink;
+    box-sizing: border-box;
+    padding: 150px;
+}

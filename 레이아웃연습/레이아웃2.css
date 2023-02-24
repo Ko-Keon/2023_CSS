@@ -1,0 +1,59 @@
+body {
+    margin: 0; padding: 0;
+    background-color: rgb(214, 242, 253);
+}
+
+.wrap {
+    width: 900px;
+    background-color: rgb(101, 101, 202);
+    color: ivory;
+    text-shadow: 2px 2px black;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.head {
+    width: 900px;
+    height: 200px;
+    background-color: rgb(111, 111, 233);
+    font-size: 4rem;
+    line-height: 150px; /*텍스트 줄 간격 조정*/
+}
+
+.nav {
+    width: 900px;
+    height: 100px;
+    background-color: rgba(172, 186, 250, 0.911);
+    /*태그를 넣을때 패딩사용*/
+    /*nav크기가 정해져있을 떄 보더박스 사용*/
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    height: 500px;
+}
+.main>.side-left {
+    background-color: rgb(62, 98, 165);
+    box-sizing: border-box;
+    padding: 250px 0;
+}
+.main>.content {
+    background-color: skyblue;
+    box-sizing: border-box;
+    padding: 250px 0;
+}
+.main>.side-right {
+    background-color: rgba(9, 173, 238, 0.795);
+    box-sizing: border-box;
+    padding: 250px 0;
+}
+
+.footer {
+    height: 150px;
+    box-sizing: border-box;
+    padding: 75px 0;
+}
